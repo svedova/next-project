@@ -1,1 +1,4 @@
-module.exports = { target: "serverless" };
+module.exports = {
+  target: "serverless",
+  assetPrefix: process.env.PUBLIC_PATH
+};
